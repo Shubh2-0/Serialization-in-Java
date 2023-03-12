@@ -32,6 +32,7 @@ public class SerializationExample {
 	oos.writeObject(list);
 	
 	oos.close();
+	fos.close();
 	
 	System.out.println("\n\nYour data is successfully serialized.......😊😊");
 	

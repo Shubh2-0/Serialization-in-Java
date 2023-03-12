@@ -44,9 +44,8 @@ public class DeSerializationDemo {
 		ArrayList<Employee> data = (ArrayList<Employee>) ois.readObject();
 		
 		
-		fis.close();
-		ois.close();
-		
+		  fis.close();
+		  ois.close();
 		System.out.println("DE-SERIALIZED SUCCESSFULLY.....😊");
 		
 		System.out.println("\n\nPRESS 1 FOR PRINTING THE DATA");
