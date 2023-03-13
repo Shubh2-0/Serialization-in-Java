@@ -66,7 +66,12 @@ The following program code will serialize a student object and save it to a file
 # Output 
 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/SerializationinJava_2.png" />
 
+
+
 ===========================================================================================
+
+
+
 
 # Example for Deserialization in Java ⭐
 In the code below, you will look at how to deserialize the student object that was have serialized in the above example.
