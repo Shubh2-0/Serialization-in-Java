@@ -57,7 +57,7 @@ public final Object readObject() throws IOException, ClassNotFoundException
 
 **Let’s look at an example to understand how to serialize and de-serialize an object in Java.**
 
-# Example for Serialization in Java
+# Example for Serialization in Java ⭐
 
 The following program code will serialize a student object and save it to a file named student.ser.
 
@@ -66,7 +66,9 @@ The following program code will serialize a student object and save it to a file
 # Output 
 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/SerializationinJava_2.png" />
 
-# Example for Deserialization in Java
+==============================================================================================
+
+# Example for Deserialization in Java ⭐
 In the code below, you will look at how to deserialize the student object that was have serialized in the above example.
 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/DeserializationinJava_2.png" />
 
