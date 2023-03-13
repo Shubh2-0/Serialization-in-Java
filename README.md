@@ -23,12 +23,18 @@ Serialization offers a plethora of benefits. Some of its primary advantages are:
 ✨ Easy to understand and customize
 
 
-Points to Note About Serialization in Java?
+# Points to Note About Serialization in Java?
+
 To serialize an object, there are a few conditions to be met. Some other key points need to be highlighted before you proceed further in the article. These are the conditions and points to remember while using serialization in Java.
 
-✍ Serialization is a marker interface with no method or data member\
-✍ You can serialize an object only by implementing the serializable interface\
-✍ All the fields of a class must be serializable; otherwise, use the transient keyword (more about it later)\
-✍ The child class doesn’t have to implement the Serializable interface, if the parent class does\
-✍ The serialization process only saves non-static data members, but not static or transient data members\
+✍ Serialization is a marker interface with no method or data member
+
+✍ You can serialize an object only by implementing the serializable interface
+
+✍ All the fields of a class must be serializable; otherwise, use the transient keyword (more about it later)
+
+✍ The child class doesn’t have to implement the Serializable interface, if the parent class does
+
+✍ The serialization process only saves non-static data members, but not static or transient data members
+
 ✍ By default, the String and all wrapper classes implement the Serializable interface
