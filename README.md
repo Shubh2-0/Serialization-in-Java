@@ -38,3 +38,28 @@ To serialize an object, there are a few conditions to be met. Some other key poi
 ✍ The serialization process only saves non-static data members, but not static or transient data members
 
 ✍ By default, the String and all wrapper classes implement the Serializable interface
+
+
+
+# How to Serialize an Object?
+
+Since you now know what serialization in Java is, and all the relevant points, let’s delve deep into how to serialize an object. You must use the writeObject() method of the ObjectOutputStream class for serialization and readObject() method of the InputObjectStream class for deserialization purpose.
+
+Syntax for the writeObject() method:
+```
+public final void writeObject(Object o) throws IO Exception
+```
+
+Syntax for the readObject() method:
+```
+public final Object readObject() throws IOException, ClassNotFoundException
+```
+
+**Let’s look at an example to understand how to serialize and de-serialize an object in Java.**
+
+Example for Serialization in Java
+
+The following program code will serialize a student object and save it to a file named student.ser.
+
+<img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/SerializationinJava_1.png" />
+
