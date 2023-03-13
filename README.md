@@ -63,3 +63,6 @@ The following program code will serialize a student object and save it to a file
 
 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/SerializationinJava_1.png" />
 
+# Output 
+<img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/SerializationinJava_2.png" />
+
