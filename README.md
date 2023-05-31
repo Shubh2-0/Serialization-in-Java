@@ -1,6 +1,5 @@
-# Serialization and Deserialization in Java with Example
 
-# Serialization and Deserialization in Java
+# Serialization and Deserialization in Java 🪄
 
 [![GitHub](https://img.shields.io/badge/GitHub-Serialization%20in%20Java-blue.svg)](https://github.com/Shubh2-0/Serialization-in-Java)
 
